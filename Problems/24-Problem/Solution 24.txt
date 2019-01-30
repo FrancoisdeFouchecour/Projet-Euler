@@ -1,0 +1,18 @@
+TEST #1
+
+Input: [3, 5]
+Output: 201
+Answer: 201
+Computation time: 0.0 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #24
+
+Input: [10, 1000000]
+Output: 2783915460
+Computation time: 0.0 sec
+
+
+
+Current date & time: Wed Jan 30 23:36:48 2019
