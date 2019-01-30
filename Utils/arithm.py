@@ -1,3 +1,9 @@
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
 def is_prime(n):
     #return first prime factor if composite, return itself otherwhise
     if n == 1:
