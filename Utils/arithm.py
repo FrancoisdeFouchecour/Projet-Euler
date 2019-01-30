@@ -41,7 +41,8 @@ def ppcm_multiple(tab_number):
             if exp > ppcm_decomposition.count(div):
                 for i in range(exp-ppcm_decomposition.count(div)):
                     ppcm_decomposition.append(div)
-    
-    return ppcm_decomposition.sort()
+                    
+    ppcm_decomposition.sort()
+    return ppcm_decomposition
                     
         
