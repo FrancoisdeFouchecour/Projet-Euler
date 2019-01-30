@@ -4,6 +4,7 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
+
 def is_prime(n):
     #return first prime factor if composite, return itself otherwhise
     if n == 1:
@@ -50,5 +51,16 @@ def ppcm_multiple(tab_number):
                     
     ppcm_decomposition.sort()
     return ppcm_decomposition
-                    
+
+
+def sum_of_divisors(number):
+    result = 1
+    if number == 1:
+        return 1
+        
+    decomposition = prime_decomposition_normalise(prime_decomposition(number))
+    
+    for num, exp in decomposition:
+        result *= (num**(exp + 1) - 1)//(num - 1)
+    return result
         
