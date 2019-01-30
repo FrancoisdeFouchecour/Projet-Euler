@@ -1,0 +1,18 @@
+TEST #1
+
+Input: 6
+Output: 13
+Answer: 13
+Computation time: 0.0 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #7
+
+Input: 10001
+Output: 104743
+Computation time: 0.4532043933868408 sec
+
+
+
+Current date & time: Wed Jan 30 14:55:51 2019
