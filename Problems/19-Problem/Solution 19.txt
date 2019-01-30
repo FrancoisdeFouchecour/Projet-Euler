@@ -1,0 +1,9 @@
+RESULT PROBLEM #19
+
+Input: 1 Jan 1900 was a Monday
+Output: 171
+Computation time: 0.019551515579223633 sec
+
+
+
+Current date & time: Wed Jan 30 20:47:25 2019
