@@ -1,0 +1,18 @@
+TEST #1
+
+Input: 5
+Output: 4
+Answer: 4
+Computation time: 0.0 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #31
+
+Input: 200
+Output: 73682
+Computation time: 0.002005338668823242 sec
+
+
+
+Current date & time: Thu Jan 31 15:36:53 2019
