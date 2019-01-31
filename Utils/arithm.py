@@ -6,8 +6,8 @@ def factorial(n):
 
 
 def is_prime(n):
-    #return first prime factor if composite, return itself otherwhise
-    if n == 1:
+    #return first prime factor if composite, return itself otherwhise (and -1 if n < 0)
+    if n < 1:
         return 1
         
     d = 2
