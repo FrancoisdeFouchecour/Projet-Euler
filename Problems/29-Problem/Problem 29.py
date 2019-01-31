@@ -7,19 +7,6 @@ test_solution = 15
 problem_input = 100
 
 
-def south_east(n):
-    return(4*n**2 - 2*n +1)
-
-def south_west(n):
-    return(4*n**2 + 1)
-
-def north_west(n):
-    return(4*n**2 + 2 * n + 1)
-
-def north_east(n):
-    return(4*n**2 + 4 * n + 1)
-
-    
 #Solution
 
 
