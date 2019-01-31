@@ -3,7 +3,7 @@ TEST #1
 Input: 41
 Output: -41
 Answer: -41
-Computation time: 0.002005338668823242 sec
+Computation time: 0.0015027523040771484 sec
 Verification: TRUE
 
 
@@ -11,8 +11,8 @@ RESULT PROBLEM #27
 
 Input: 1000
 Output: -59231
-Computation time: 0.0 sec
+Computation time: 0.48027706146240234 sec
 
 
 
-Current date & time: Thu Jan 31 11:37:55 2019
+Current date & time: Thu Jan 31 11:58:51 2019

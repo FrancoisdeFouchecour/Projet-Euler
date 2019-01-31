@@ -68,7 +68,7 @@ else:
     
 
 begin_problem = time.time()
-#◘problem_value = solution(problem_input)
+problem_value = solution(problem_input)
 end_problem = time.time()
 problem_time = end_problem - begin_problem
 
