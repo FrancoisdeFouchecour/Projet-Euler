@@ -1,0 +1,9 @@
+RESULT PROBLEM #39
+
+Input: 1000
+Output: 840
+Computation time: 5.864656209945679 sec
+
+
+
+Current date & time: Fri Feb  1 15:13:43 2019
