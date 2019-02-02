@@ -1,0 +1,26 @@
+TEST #1
+
+Input: 100
+Output: 41
+Answer: 41
+Computation time: 0.0 sec
+Verification: TRUE
+
+TEST #2
+
+Input: 1000
+Output: 953
+Answer: 953
+Computation time: 0.002005338668823242 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #50
+
+Input: 1000000
+Output: 997651
+Computation time: 12.214480638504028 sec
+
+
+
+Current date & time: Sat Feb  2 19:55:42 2019
