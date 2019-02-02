@@ -1,0 +1,26 @@
+TEST #1
+
+Input: 2
+Output: 14
+Answer: 14
+Computation time: 0.0010023117065429688 sec
+Verification: TRUE
+
+TEST #2
+
+Input: 3
+Output: 644
+Answer: 644
+Computation time: 0.017066001892089844 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #47
+
+Input: 4
+Output: 134043
+Computation time: 2.521684169769287 sec
+
+
+
+Current date & time: Sat Feb  2 17:13:53 2019
