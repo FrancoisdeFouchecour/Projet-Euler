@@ -1,0 +1,9 @@
+RESULT PROBLEM #97
+
+Input: [28433, 7830457]
+Output: 8739992577
+Computation time: 0.0 sec
+
+
+
+Current date & time: Sun Feb  3 17:09:25 2019
