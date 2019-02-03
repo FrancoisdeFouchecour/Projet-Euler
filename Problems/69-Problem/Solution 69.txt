@@ -1,0 +1,18 @@
+TEST #1
+
+Input: 10
+Output: 6
+Answer: 6
+Computation time: 0.0 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #69
+
+Input: 1000000
+Output: 510510
+Computation time: 34.43869614601135 sec
+
+
+
+Current date & time: Sun Feb  3 22:10:04 2019
