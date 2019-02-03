@@ -77,3 +77,17 @@ def quick_add(Set, x):
                 max_index = new_index - 1
         return(min_index)
     return(0)
+
+
+def quick_exp_mod(x, n, mod):
+    if n == 1:
+        return(x%mod)
+    elif n == 0:
+        return(1)
+    elif n%2 == 0:
+        return (quick_exp_mod(x, n//2, mod)**2)%mod
+    else:
+        return (x * (quick_exp_mod(x, n//2, mod))**2)%mod
+    
+    return 0
+    
