@@ -1,0 +1,8 @@
+RESULT PROBLEM #79
+
+Output: 73162890
+Computation time: 0.0 sec
+
+
+
+Current date & time: Sun Feb  3 15:09:49 2019
