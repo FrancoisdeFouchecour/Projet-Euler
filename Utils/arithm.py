@@ -42,6 +42,14 @@ def prime_decomposition_normalise(decompostion):
             unique_decomposition.append(num)
     
     return([(num, decompostion.count(num))for num in unique_decomposition])
+
+
+def phi(n):
+    value = 1
+    decompo = prime_decomposition_normalise(prime_decomposition(n))
+    for mult, exp in decompo:
+        value *= (mult - 1)*mult**(exp - 1)
+    return value
         
 
 def ppcm_multiple(tab_number):
