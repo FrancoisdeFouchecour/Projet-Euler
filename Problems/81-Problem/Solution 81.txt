@@ -1,0 +1,16 @@
+TEST #1
+
+Output: 2427
+Answer: 2427
+Computation time: 0.0 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #81
+
+Output: 427337
+Computation time: 0.003030538558959961 sec
+
+
+
+Current date & time: Mon Feb  4 13:36:17 2019
