@@ -1,0 +1,18 @@
+TEST #1
+
+Input: 100
+Output: 401
+Answer: 401
+Computation time: 0.0 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #357
+
+Input: 10000000
+Output: 27814470277
+Computation time: 414.87203311920166 sec
+
+
+
+Current date & time: Tue Feb  5 01:42:15 2019
