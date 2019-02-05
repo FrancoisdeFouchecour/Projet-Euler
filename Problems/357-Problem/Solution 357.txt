@@ -9,10 +9,10 @@ Verification: TRUE
 
 RESULT PROBLEM #357
 
-Input: 10000000
-Output: 27814470277
-Computation time: 414.87203311920166 sec
+Input: 100000000
+Output: 1739023853137
+Computation time: 11473.736395597458 sec
 
 
 
-Current date & time: Tue Feb  5 01:42:15 2019
+Current date & time: Tue Feb  5 14:32:22 2019

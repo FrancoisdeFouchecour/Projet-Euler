@@ -1,5 +1,4 @@
 import time 
-import numpy as np
 import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.getcwd())),'Utils'))
@@ -9,7 +8,7 @@ from arithm import is_prime
 problem_number = 357
 test_input = 100
 test_solution = 401
-problem_input = 10000000
+problem_input = 100000000
 
 
 #Solution
@@ -32,7 +31,6 @@ def solution(limit):
             d += 1
         
         if b:
-            print(n)
             result += n
             
     return result
