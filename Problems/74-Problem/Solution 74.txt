@@ -1,0 +1,9 @@
+RESULT PROBLEM #74
+
+Input: 1000000
+Output: 402
+Computation time: 3.104436159133911 sec
+
+
+
+Current date & time: Wed Feb  6 13:10:04 2019
