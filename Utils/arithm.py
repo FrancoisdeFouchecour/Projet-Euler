@@ -89,4 +89,16 @@ def sieve_for_primes_to(n):
             tmp = ((size-1) - i)//val 
             sieve[i+val::val] = [0]*tmp
     return [2] + [i*2+1 for i, v in enumerate(sieve) if v and i>0]
+
+
+
+def min_factor(n):
+    factor = [i for i in range(n + 1)]
+    for i in range(2, n + 1):
+        if factor[i] == i:
+            tmp =  -1 + (n - n%i)//i
+            
+            factor[2*i::i] = [i]*tmp
+    return factor
+    
     
