@@ -1,0 +1,18 @@
+TEST #1
+
+Input: 8
+Output: 412
+Answer: 412
+Computation time: 0.0 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #622
+
+Input: 60
+Output: 3010983666182123972
+Computation time: 0.05065464973449707 sec
+
+
+
+Current date & time: Sun Feb 10 13:03:54 2019
