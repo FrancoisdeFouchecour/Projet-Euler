@@ -1,0 +1,18 @@
+TEST #1
+
+Input: 100
+Output: 2012
+Answer: 2012
+Computation time: 0.0 sec
+Verification: TRUE
+
+
+RESULT PROBLEM #549
+
+Input: 100000000
+Output: 476001479068717
+Computation time: 165.10255575180054 sec
+
+
+
+Current date & time: Sun Feb 10 01:23:17 2019
