@@ -100,5 +100,28 @@ def min_factor(n):
             
             factor[2*i::i] = [i]*tmp
     return factor
+
+
+def v_p(n, p):
+    count = 1
+    factor = p
+    while n%factor == 0:
+        count += 1
+        factor *=p
+    return count - 1
     
+
+def new_decmpo(n):
+    d = 2
+    factor = []
+    while d*d <= n:
+        if n%d == 0:
+            k = v_p(n, d)
+            factor.append((d, k))
+            n = n//(d**k)
+        d += 1
+    if n != 1:
+        factor.append((n, 1))
+    return factor
+        
     
