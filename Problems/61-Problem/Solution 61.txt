@@ -1,8 +1,8 @@
 RESULT PROBLEM #61
 
-Output: 0
-Computation time: 0.0 sec
+Output: 28684
+Computation time: 0.025568246841430664 sec
 
 
 
-Current date & time: Tue Feb 12 22:30:41 2019
+Current date & time: Wed Feb 13 13:22:46 2019
