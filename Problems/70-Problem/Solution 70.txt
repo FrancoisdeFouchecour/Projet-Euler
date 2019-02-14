@@ -1,9 +1,9 @@
 RESULT PROBLEM #70
 
 Input: 10000000
-Output: 0
-Computation time: 0.0 sec
+Output: 8319823
+Computation time: 13.22466230392456 sec
 
 
 
-Current date & time: Wed Feb 13 16:33:18 2019
+Current date & time: Thu Feb 14 18:57:51 2019
