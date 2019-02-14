@@ -90,4 +90,15 @@ def quick_exp_mod(x, n, mod):
         return (x * (quick_exp_mod(x, n//2, mod))**2)%mod
     
     return 0
-    
+
+
+def is_permutation(a, b):
+    if len(a) == 0 and len(b) == 0:
+        return(True)
+    elif len(a) != len(b):
+        return(False)
+    if a[0] in b:
+        return(is_permutation(a[1:], b[:b.index(a[0])]+b[b.index(a[0])+1:]))
+    else:
+        return(False)
+        
