@@ -6,6 +6,7 @@ sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.getcwd())),'Util
 from arithm import min_factor
 from algorithm import is_permutation
 
+
 problem_number = 70
 problem_input = 10000000
 
