@@ -8,9 +8,9 @@ Verification: FALSE
 
 RESULT PROBLEM #89
 
-Output: 529
-Computation time: 0.0010018348693847656 sec
+Output: 789
+Computation time: 0.0010023117065429688 sec
 
 
 
-Current date & time: Thu Feb 14 22:47:41 2019
+Current date & time: Fri Feb 15 12:55:12 2019

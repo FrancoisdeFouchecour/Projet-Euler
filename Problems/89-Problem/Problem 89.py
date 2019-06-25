@@ -21,18 +21,20 @@ test = raw_data.split('\n')
 def solution(list_input):
     result = 0    
     for num in list_input:
-        if num.count('I') == 4:
-            if num.count('V') == 0:
-                result += 2                
-            else:
-                result += 3
+        if num.count('I') == 4 and num.count('V') == 1:
+            result += 3
+        if num.count('I') == 4 and num.count('V') == 0:
+            result += 2
+        if num.count('X') == 4 and num.count('L') == 1:
+            result += 3
+        if num.count('X') == 4 and num.count('L') == 0:
+            result += 2
+        if num.count('C') == 4 and num.count('D') == 1:
+            result += 3
+        if num.count('C') == 4 and num.count('D') == 0:
+            result += 2
             
-        if num.count('X') == 4:
-            if num.count('L') == 0:
-                result += 2                
-            else:
-                result += 3
-                            
+    print(result)
     return result
 
 
