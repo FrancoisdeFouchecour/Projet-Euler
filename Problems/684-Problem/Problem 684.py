@@ -5,6 +5,7 @@ problem_number = 684
 problem_input = 90
 problem_modulo = 1000000007
 
+
 def expo_rapide(n, exp, modulo):
     if exp == 0:
         return 1
@@ -16,25 +17,6 @@ def expo_rapide(n, exp, modulo):
     else:
         sqrt = expo_rapide(n, exp//2, modulo)
         return((n*sqrt*sqrt)%modulo)
-    
-def s(n, modulo):
-    quotien = n//9
-    rest = n%9
-    nombre = expo_rapide(10, quotien, modulo)
-    return (nombre - 1 + rest*nombre)%modulo
-
-
-def S(k, modulo):
-    if k <= 9:
-        return ((k*(k+1))//2)%modulo
-    else:
-        q, r = k//9, k%9
-        mult = (6*expo_rapide(10, q, modulo) - 9*(q-1) - 15)%modulo 
-        mult += (r*(r+1))//2*expo_rapide(10, q, modulo)
-        mult = mult%modulo
-        mult += r*(expo_rapide(10, q, modulo)-1)
-        mult = mult%modulo
-        return mult
 
 
 #Solution
@@ -44,12 +26,11 @@ def solution(limit, modulo):
     fib = 1
     fib_prec = 1
     sumation = 0
-
     for i in range (2, limit+1):
-        sumation += S(fib, modulo)
-        print(i, fib, sumation)
+        q, r = fib//9, fib%9
+        sumation += (expo_rapide(10, q, modulo)*(6 + (r*(r+3))//2) - 9*(q-1) - 15 - r)%modulo
         fib , fib_prec = fib + fib_prec , fib 
-    return sumation
+    return sumation%modulo
     
 
 #Test & Result

@@ -1,9 +1,9 @@
 RESULT PROBLEM #684
 
 Input: 90
-Output: 38922058476
-Computation time: 0.01052713394165039 sec
+Output: 922058210
+Computation time: 0.0010023117065429688 sec
 
 
 
-Current date & time: Thu Nov 18 16:28:44 2021
+Current date & time: Thu Nov 18 17:42:43 2021
