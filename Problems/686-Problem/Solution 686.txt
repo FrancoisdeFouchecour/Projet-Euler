@@ -1,0 +1,9 @@
+RESULT PROBLEM #686
+
+Input: 123 ; 678910
+Output: 193060223
+Computation time: 99.96196961402893 sec
+
+
+
+Current date & time: Thu Nov 18 21:40:31 2021
