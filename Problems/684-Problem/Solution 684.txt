@@ -1,0 +1,9 @@
+RESULT PROBLEM #684
+
+Input: 90
+Output: 38922058476
+Computation time: 0.01052713394165039 sec
+
+
+
+Current date & time: Thu Nov 18 16:28:44 2021
