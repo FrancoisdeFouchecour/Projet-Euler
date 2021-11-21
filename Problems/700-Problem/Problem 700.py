@@ -29,6 +29,8 @@ def solution(n, modulo):
             index = index + Euler_index
             sequence_n += Eulercoin
             sequence_n = sequence_n%modulo
+
+    
         if sequence_n < Eulercoin:
             Eulercoin = sequence_n
             Euler_index = index
