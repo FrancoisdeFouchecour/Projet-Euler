@@ -17,37 +17,24 @@ def solution(n, modulo):
     
     sequence_n = n
     index = 1
-    periode_trouve = 0
     
     sumation = n 
     
-    while True:
+    while Eulercoin > 1:
         index += 1
         sequence_n += n
         sequence_n = sequence_n%modulo
-        
+                
+        if (modulo - sequence_n)%modulo < Eulercoin:
+            index = index + Euler_index
+            sequence_n += Eulercoin
+            sequence_n = sequence_n%modulo
         if sequence_n < Eulercoin:
-            periode_trouve = index - Euler_index
             Eulercoin = sequence_n
             Euler_index = index
             Euler_count += 1
-            print(Euler_count, Eulercoin, Euler_index)
-            
-            if periode_trouve != 0:
-                print("Periode trouve :"+str(periode_trouve))
-                while (sequence_n + periode_trouve*n)%modulo < Eulercoin:
-                    index += periode_trouve
-                    sequence_n = sequence_n + n*periode_trouve
-                    sequence_n = sequence_n%modulo
-                    Eulercoin = sequence_n
-                    Euler_index = index
-                    Euler_count += 1
-                    print("MERCI PERIODE")
-                    print(Euler_count, Eulercoin, Euler_index)
-                    
-                print("Periode perdue :"+str(periode_trouve)+"\n")
-                periode_trouve = 0
-                index += periode_trouve
+            print(Euler_count, Eulercoin)
+               
     return 0
     
 
