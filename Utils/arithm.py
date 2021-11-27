@@ -121,5 +121,12 @@ def new_decmpo(n):
     if n != 1:
         factor.append((n, 1))
     return factor
-        
+
+
+def bezout(a, b):
+    r1, r2, u1,  v1, u2, v2 = a, b, 1, 0, 0, 1 
+    while r2 != 0:
+        q = r1//r2
+        r1, r2, u1,  v1, u2, v2 = r2, r1 - q*r2, u2, v2, u1 - q*u2, v1 - q*v2
+    return(r1, u1, v1)
     
