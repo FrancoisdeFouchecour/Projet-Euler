@@ -2,8 +2,8 @@ RESULT PROBLEM #700
 
 Input: 1504170715041707
 Output: 1517926517777556
-Computation time: 10.492559671401978 sec
+Computation time: 0.0 sec
 
 
 
-Current date & time: Sat Nov 27 21:41:13 2021
+Current date & time: Sat Nov 27 21:56:52 2021
